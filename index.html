@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Covid 19 API</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="data">
+            <h1 class="tracker">Covid 19 tracker</h1>
+            <input type="text" placeholder="Enter country name" required class="countryName">
+            <button class="btn btn-primary">Search</button>
+
+            <div id="results">
+                <ul class="data-results">
+                    <!--
+                    <li>
+                        <h2 class="country-name">Kenya</h2>
+                        <p class="total-cases">Total Cases: 127585</p>
+                        <p class="total-cases">Total Recovery: 127585</p>
+                        <p class="total-cases">Total Deaths: 127585</p>
+                    </li>
+                -->
+                <div class="error-msg alert alert-danger mt-3"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
